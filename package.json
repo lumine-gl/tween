@@ -1,0 +1,20 @@
+{
+  "name": "lumine-tween",
+  "version": "0.0.0",
+  "description": "An object for managing a tween between potentially complex states",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lumine-gl/tween.git"
+  },
+  "author": "Will Shown <will.shown@microsoft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lumine-gl/tween/issues"
+  },
+  "homepage": "https://github.com/lumine-gl/tween",
+  "dependencies": {
+    "cubic-bezier": "latest",
+    "lumine-now": "git://github.com/lumine-gl/now.git"
+  }
+}
