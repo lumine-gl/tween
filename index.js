@@ -35,7 +35,7 @@
 
   Tween.prototype.stop = function(){
     this.tweening = false;
-    this._done(this.to);
+    if(this._done) this._done(this.to);
   };
 
   Tween.prototype.update = function(to){
